@@ -7,7 +7,7 @@ git submodule init
 git submodule update
 mkdir -p boards global/all
 touch claspignore-template
-sudo apps/trellinator/tools/install
+sudo apps/trellinator/bin/install
 cp apps/trellinator/test .
 git add .
 git commit -m "Init submodule and claspignore"
