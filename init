@@ -3,13 +3,11 @@ git init
 git submodule add git@bitbucket.org:iaindooley/benko-board-trellinator.git apps/benko-board-trellinator
 git submodule add git@bitbucket.org:iaindooley/trellinator-libs.git apps/trellinator-libs
 git submodule add git@bitbucket.org:iaindooley/trellinator.git apps/trellinator
-git submodule add git@bitbucket.org:iaindooley/skedge.git apps/skedge
 git submodule init
 git submodule update
 mkdir -p boards global/all
 touch claspignore-template
-chmod +x apps/trellinator/build_claspignore.sh
-apps/trellinator/build_claspignore.sh
+sudo apps/trellinator/tools/install
 cp apps/trellinator/test .
 git add .
 git commit -m "Init submodule and claspignore"
