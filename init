@@ -1,4 +1,5 @@
 #!/bin/bash
+git init
 git submodule add git@bitbucket.org:iaindooley/benko-board-trellinator.git apps/benko-board-trellinator
 git submodule add git@bitbucket.org:iaindooley/trellinator-libs.git apps/trellinator-libs
 git submodule add git@bitbucket.org:iaindooley/trellinator.git apps/trellinator
