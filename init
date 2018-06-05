@@ -13,4 +13,3 @@ apps/trellinator/build_claspignore.sh
 cp apps/trellinator/test .
 git add .
 git commit -m "Init submodule and claspignore"
-git push -u origin master
