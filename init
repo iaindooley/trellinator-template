@@ -1,8 +1,8 @@
 #!/bin/bash
 git init
-git submodule add git@github.org:iaindooley/benko-board-trellinator.git apps/benko-board-trellinator
-git submodule add git@github.org:iaindooley/trellinator-libs.git apps/trellinator-libs
-git submodule add git@github.org:iaindooley/trellinator.git apps/trellinator
+git submodule add git@github.com:iaindooley/benko-board-trellinator.git apps/benko-board-trellinator
+git submodule add git@github.com:iaindooley/trellinator-libs.git apps/trellinator-libs
+git submodule add git@github.com:iaindooley/trellinator.git apps/trellinator
 git submodule init
 git submodule update
 mkdir -p boards global/all
